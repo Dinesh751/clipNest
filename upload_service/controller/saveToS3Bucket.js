@@ -11,7 +11,7 @@ const saveToS3Bucket = async(req,res) =>{
 
         if (!req.file) {
             console.log('No file received');
-            return res.status(400).send('No file received');
+            return res.status(400).send('No file received...!');
         }
         const file = req.file;
 
